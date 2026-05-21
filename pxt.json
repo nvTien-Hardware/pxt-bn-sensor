@@ -5,7 +5,7 @@
   "dependencies": {
     "core": "*"
   },
-  "files": ["main.ts", "shims/BN_DHT11.cpp", "shims/BN_DHT11.h"],
+  "files": ["main.ts"],
   "targetVersions": {
     "target": "0.15.70",
     "targetId": "maker"

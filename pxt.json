@@ -1,16 +1,12 @@
 {
     "name": "pxt-bn-sensor",
-    "description": "",
+    "version": "0.0.1",
+    "description": "Thư viện cảm biến hệ sinh thái BN STEM",
     "dependencies": {
-        "espressif-esp32-devkit-c": "*"
+        "core": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md"
-    ],
-    "testFiles": [
-        "test.ts"
+        "main.ts"
     ],
     "targetVersions": {
         "target": "0.15.70",
@@ -19,5 +15,8 @@
     "supportedTargets": [
         "maker"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "blocksprj",
+    "test.ts": [
+        "test.ts"
+    ]
 }

@@ -50,9 +50,8 @@ namespace BNSensors {
     //% block="%this| đọc %type"
     //% weight=85
     read(type: DHT11Type): number {
-      // Đã bỏ tag //% shim ở đây.
-      // TypeScript tự bóc tách số chân (_pin) và gọi hàm bắc cầu đã khai báo trong shims.d.ts
-      return readDHT11Native(this._pin, type);
+      // Thêm BNSensors. vào phía trước để chỉ định chính xác hàm khai báo trong shims.d.ts
+      return BNSensors.readDHT11Native(this._pin, type);
     }
   }
 

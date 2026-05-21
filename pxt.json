@@ -1,22 +1,16 @@
 {
-    "name": "pxt-bn-sensor",
-    "version": "0.0.1",
-    "description": "Thư viện cảm biến hệ sinh thái BN STEM",
-    "dependencies": {
-        "core": "*"
-    },
-    "files": [
-        "main.ts"
-    ],
-    "targetVersions": {
-        "target": "0.15.70",
-        "targetId": "maker"
-    },
-    "supportedTargets": [
-        "maker"
-    ],
-    "preferredEditor": "tsprj",
-    "test.ts": [
-        "test.ts"
-    ]
+  "name": "pxt-bn-sensor",
+  "version": "0.0.1",
+  "description": "Thư viện cảm biến hệ sinh thái BN STEM",
+  "dependencies": {
+    "core": "*"
+  },
+  "files": ["main.ts", "shims/BN_DHT11.cpp", "shims/BN_DHT11.h"],
+  "targetVersions": {
+    "target": "0.15.70",
+    "targetId": "maker"
+  },
+  "supportedTargets": ["maker"],
+  "preferredEditor": "tsprj",
+  "test.ts": ["test.ts"]
 }
